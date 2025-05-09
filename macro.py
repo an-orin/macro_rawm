@@ -78,7 +78,7 @@ async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ---------------- Main ----------------
 if __name__ == '__main__':
-    app = ApplicationBuilder().token("YOUR_TOKEN_HERE").build()
+    app = ApplicationBuilder().token("8054215411:AAHjlYpSFWGD5Y_FNA04P3B0ZDo_umWxLrE").build()
 
     # Menu chính
     app.add_handler(CommandHandler("menu", menu))
